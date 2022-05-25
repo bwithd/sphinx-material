@@ -283,15 +283,14 @@ code,kbd,pre{
     margin-left:0
 }
 .md-typeset blockquote{
-  padding-left:0;
+  padding-left:.6rem;
   border-left:transparent;
-  color:rgb(0, 0, 0)
 }
 [dir=rtl] .md-typeset blockquote{
   padding-right:.1rem;
   padding-left:.6rem;
   border-right:transparent;
-  border-left:initial
+  border-left:transparent
 }
 .md-typeset ul{
     list-style-type:disc
