@@ -143,7 +143,7 @@ def minify_css(app, exception):
 
 def update_html_context(app):
     config = app.config
-    config.html_context = {get_html_context(), config.html_context}
+    config.html_context = {**get_html_context(), **config.html_context}
 
 
 def update_table_classes(app, config):
