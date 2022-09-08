@@ -338,7 +338,7 @@ code,kbd,pre{
     margin-left:0
 }
 .md-typeset iframe,.md-typeset img,.md-typeset svg{
-    max-width: 600px;
+    max-width: 800px;
     align-content: center;
 }
 .md-typeset table:not([class]){
