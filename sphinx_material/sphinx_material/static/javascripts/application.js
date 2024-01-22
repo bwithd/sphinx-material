@@ -1207,7 +1207,7 @@
                             });
                             var o = this.el_.parentNode;
                             if (!(o instanceof HTMLElement)) throw new ReferenceError;
-                            for (; this.stack_.length && o.offsetHeight >= o.scrollHeight - 16;) this.stack_.shift()();
+                            for (; this.stack_.length && o.offsetHeight >= o.scrollHeight - 1;) this.stack_.shift()();
                             var l = this.list_.querySelectorAll("[data-md-rel=anchor]");
                             switch (Array.prototype.forEach.call(l, function(r) {
                                 ["click", "keydown"].forEach(function(n) {
